@@ -332,6 +332,15 @@ main {
   display: block;
 }
 
+.page-title.coming-soon {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .page-title {
   font-family: var(--display);
   font-size: 2.2rem;
