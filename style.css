@@ -456,6 +456,36 @@ main {
 .essay-nav-link:hover { color: var(--text); }
 
 /* ── Contact page ── */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.contact-item {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-name-link {
+  font-family: var(--display);
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.contact-name-link:hover { color: var(--accent); }
+
+.contact-linkedin {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contact-linkedin:hover { color: var(--accent); }
+
 .contact-name {
   font-family: var(--mono);
   font-size: 0.7rem;
