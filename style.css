@@ -284,19 +284,21 @@ main {
 .engage-text {
   font-family: var(--serif);
   font-size: 1rem;
+  font-style: italic;
   line-height: 1.8;
   color: var(--muted);
   max-width: 580px;
 }
 
 .engage-link {
-  color: var(--accent);
+  color: var(--accent) !important;
   text-decoration: none;
   white-space: nowrap;
+  margin-left: 0.4em;
   transition: color 0.2s;
 }
 
-.engage-link:hover { color: var(--text); }
+.engage-link:hover { color: var(--text) !important; }
 
 .essays-more {
   text-align: right;
@@ -565,7 +567,8 @@ main {
   .hero { margin-bottom: 3.5rem; }
   .capabilities-label { margin-bottom: 3rem; }
   .capability-body { padding-bottom: 3rem; }
-  .essays-label { margin-top: 1.5rem; }
+  .engage { padding-bottom: 5rem; }
+  .essays-label { margin-top: 0; }
 }
 
 /* ── Footer ── */
