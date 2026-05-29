@@ -521,6 +521,14 @@ main {
   .contact-form { max-width: 100%; }
 }
 
+/* ── Desktop spacing ── */
+@media (min-width: 601px) {
+  .hero { margin-bottom: 3.5rem; }
+  .capabilities-label { margin-bottom: 3rem; }
+  .capability-body { padding-bottom: 3rem; }
+  .essays-label { margin-top: 1.5rem; }
+}
+
 /* ── Footer ── */
 footer {
   border-top: 1px solid var(--border);
